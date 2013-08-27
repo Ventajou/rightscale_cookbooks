@@ -21,7 +21,7 @@ depends "db"
 depends "app_django"
 depends "app_jboss"
 
-recipe "app::install_server",
+recipe "app",
   "Adds the appserver:active=true, appserver:listen_ip=<ip> and" +
   " appserver:listen_port=<port> tags to your server which identifies it" +
   " as an application server and tells the load balancer what IP address" +
